@@ -8,11 +8,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
        var i = 0;
-      i += 2;
-
-
+        i += 2;
         println(i);
-      println("program ends here")
 
+//        for (let i = 0; i < 4; i++0)
+//        {
+//
+//        }
+      println("program ends here")
     }
 }
