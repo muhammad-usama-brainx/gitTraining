@@ -8,17 +8,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
        var i = 0;
-      i += 2;
+        i += 2;
 
 
         println(i);
         println("Added this feature in loop branch")
         println("Added this feature in loop branch also")
-
-
-
         println("added this feature using master branch")
 
+        println("added this line after using tags")
       println("program ends here")
 
     }
