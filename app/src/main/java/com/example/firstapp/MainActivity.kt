@@ -8,13 +8,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
        var i = 0;
-        i += 2;
-        println(i);
+      i += 2;
 
-//        for (let i = 0; i < 4; i++0)
-//        {
-//
-//        }
+
+        println(i);
+        println("Added this feature in loop branch")
+
       println("program ends here")
+
     }
 }
